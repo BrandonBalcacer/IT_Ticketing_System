@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 20 12:58:22 2025
+
+@author: user
+"""
+
+# Environment
+    .env
+   __pycache__/
+   *.py[cod]
+   *$py.class
+   
+   # Conda
+   env/
+   venv/
+   
+   # IDE
+   .spyproject/
+   .vscode/
+   .idea/
+   
+   # OS
+   .DS_Store
+   Thumbs.db
+   
+   # Project specific
+   *.db
+   instance/
+   .pytest_cache/
+   
+   # AWS Credentials
+   aws_credentials.txt
