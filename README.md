@@ -22,11 +22,11 @@ Created on Mon Oct 20 13:03:23 2025
    
    ## Features (To Be Implemented)
    
-   - User authentication and authorization
-   - Ticket submission form
-   - Ticket management dashboard
-   - Real-time ticket updates
-   - Admin statistics and reporting
+   - User authentication and authorization (DONE)
+   - Ticket submission form (DONE)
+   - Ticket management dashboard (WIP)
+   - Real-time ticket updates (WIP)
+   - Admin statistics and reporting (WIP)
    
    ## Setup Instructions
    
