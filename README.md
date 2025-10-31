@@ -4,48 +4,54 @@ Created on Mon Oct 20 13:03:23 2025
 
 @author: user
 """
-
 # IT Help Desk Ticketing System
+
+Full-stack web application for managing IT support tickets with role-based access control.
+
+## Features
+- User authentication with password hashing
+- Role-based permissions (User, Technician, Manager)
+- Ticket creation, assignment, and tracking
+- Complete audit trail of all actions (WIP) 
+- Responsive web interface
+ - Admin statistics and reporting (WIP)
    
-   ## Project Overview
+## Tech Stack
+- **Backend:** Python, Flask, SQLAlchemy
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Database:** PostgreSQL (production), SQLite (development)
+- **Deployment:** AWS EC2, RDS, S3 (in progress)
+
+## Local Setup
+```bash
+# Clone repository
+git clone https://github.com/BrandonBalcacer/IT_Ticketing_System.git
+
+# Create virtual environment
+conda create -n helpdesk-flask python=3.9
+conda activate helpdesk-flask
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python -m backend.app
+```
+
+## Demo
+Backend API: `http://127.0.0.1:5000`
+Frontend: Open `frontend/login.html` in browser
+ 
+## Project Timeline
    
-   A web-based platform where employees submit technical support tickets, 
-   and IT managers track, assign, and close tickets.
-   
-   ## Technology Stack
-   
-   - Backend: Python with Flask
-   - Database: SQLite (development), PostgreSQL (production)
-   - Frontend: HTML, CSS, JavaScript
-   - Cloud: AWS (EC2, RDS, S3)
-   - Development: Anaconda, Spyder, Git
-   
-   ## Features (To Be Implemented)
-   
-   - User authentication and authorization (DONE)
-   - Ticket submission form (DONE)
-   - Ticket management dashboard (WIP)
-   - Real-time ticket updates (WIP)
-   - Admin statistics and reporting (WIP)
-   
-   ## Setup Instructions
-   
-   ### Prerequisites
-   - Anaconda installed
-   - Python 3.9 or higher
-   
-   ### Installation
-   
-   1. Clone this repository
-   2. Create conda environment: `conda create -n ticketing_system python=3.9`
-   3. Activate environment: `conda activate ticketing_system`
-   4. Install dependencies: `pip install -r requirements.txt`
-   5. Run the application: `python app.py`
-   
-   ## Project Timeline
-   
-   - Phase 1: Environment Setup (Done)
-   - Phase 2: Backend Development(Done)
-   - Phase 3: Frontend Development(Done)
-   - Phase 4: AWS Deployment (Current)
-   - Phase 5: Testing and Documentation
+- Phase 1: Environment Setup (Done)
+- Phase 2: Backend Development(Done)
+- Phase 3: Frontend Development(Done)
+- Phase 4: AWS Deployment (Current)
+- Phase 5: Testing and Documentation
+
+
+## Author
+Brandon Balcacer
+# IT Help Desk Ticketing System
+ 
