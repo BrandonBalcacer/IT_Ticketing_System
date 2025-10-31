@@ -46,6 +46,6 @@ Created on Mon Oct 20 13:03:23 2025
    
    - Phase 1: Environment Setup (Done)
    - Phase 2: Backend Development(Done)
-   - Phase 3: Frontend Development(Current)
-   - Phase 4: AWS Deployment
+   - Phase 3: Frontend Development(Done)
+   - Phase 4: AWS Deployment (Current)
    - Phase 5: Testing and Documentation
