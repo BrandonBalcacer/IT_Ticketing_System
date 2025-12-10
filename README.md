@@ -46,7 +46,7 @@ Frontend: Open `frontend/login.html` in browser
    
 - Phase 1: Environment Setup (Done)
 - Phase 2: Backend Development(Done)
-- Phase 3: Frontend Development(Done)
+- Phase 3: Frontend Development(Modyifying)
 - Phase 4: AWS Deployment (Current)
 - Phase 5: Testing and Documentation
 
